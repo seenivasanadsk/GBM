@@ -1,0 +1,97 @@
+.output {
+    font-size: 50px;
+    display: flex;
+    justify-content: space-between;
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 5PX 10px;
+}
+
+.data-inputs {
+    height: inherit;
+    display: flex;
+}
+
+.button-groups {
+    flex: 0;
+    padding: 5PX;
+}
+
+.button-groups button,
+.actions button {
+    width: 100%;
+    padding: 5PX 10PX;
+    font-size: 20PX;
+    margin-bottom: 10PX;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+.button-groups button.active {
+    background-color: aquamarine;
+}
+
+.actions {
+    display: flex;
+    gap: 0 10px;
+    padding: 0 5px;
+}
+
+.actions button {
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    font-size: 20px;
+    border: 2px solid black;
+    padding: 5px 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+input[type=number] {
+    width: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+
+.location-selector {
+    max-height: calc(100vh - 150px);
+    height: inherit;
+    overflow: scroll;
+    width: 100%;
+    flex: 1;
+    font-size: 20px;
+    padding: 5PX;
+}
+
+.location {
+    width: 100%;
+    border: 2px solid #333;
+    border-bottom: none;
+}
+
+.location:last-child {
+    border-bottom: 2px solid #333;
+}
+
+.location>div:first-child {
+    border-bottom: 1px solid #ccc;
+}
+
+.location>div {
+    width: 100%;
+    padding: 5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.location.active {
+    background: aqua;
+}
+
+.location.active > div:first-child {
+    border-bottom: 1px solid rgb(0,200,200);
+}

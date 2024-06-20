@@ -1,18 +1,18 @@
-import ButtonGroup from './components/ButtonGroup'
-import data from './data.json'
+import { useState } from 'react'
+import MoneyCalculator from './MoneyCalculator';
+import PriceCalculator from './PriceCalculator';
 
 function App() {
+  let [tab, setTab] = useState('PRICE');
   return (
     <>
-      <h1>Price Calculator</h1>
-      <div id="output">
-        &#8377; <span>0000</span>
-      </div>
-      <div className="button-section">
-        <ButtonGroup items={data.items}></ButtonGroup>
-        <ButtonGroup items={data.units}></ButtonGroup>
-        <ButtonGroup></ButtonGroup>
-      </div>
+      <nav>
+          <div onClick={()=>{setTab('PRICE')}}>&#128176; <span>Price</span> </div>
+          <div onClick={()=>{setTab('MONEY')}}>&#128181; <span>Money</span> </div>
+      </nav>
+      {
+        tab == 'MONEY' ? <MoneyCalculator/> : <PriceCalculator/>
+      }
     </>
   )
 }
