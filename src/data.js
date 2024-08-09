@@ -1,39 +1,39 @@
 export const items = [
     {
         name: "MS",
-        price: 4000
+        price: 3800
     },
     {
         name: "PS",
-        price: 4500
+        price: 4300
     },
     {
         name: "20mm",
-        price: 2500
-    },
-    {
-        name: "Dust",
-        price: 2400
-    },
-    {
-        name: "Allmix",
         price: 2300
     },
     {
+        name: "Dust",
+        price: 2300
+    },
+    {
+        name: "Allmix",
+        price: 2200
+    },
+    {
         name: "50mm",
-        price: 2100
+        price: 2000
     },
     {
         name: "40mm",
-        price: 2100
+        price: 2000
     },
     {
         name: "12mm",
-        price: 2200
+        price: 2100
     },
     {
         name: "6mm",
-        price: 2200
+        price: 2100
     },
     {
         name: "Mix",
