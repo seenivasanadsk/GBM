@@ -409,5 +409,26 @@ export const areas = [
         unit1: 1200,
         unit2: 1400,
         group: "Thimmampettai"
+    },
+    {
+        name: "இராணிப்பேட்டை",
+        ename: "Ranipettai",
+        unit1: 600,
+        unit2: 1000,
+        group: "Mullai"
+    },
+    {
+        name: "பசலிக்குட்டை",
+        ename: "Pasalikuttai",
+        unit1: 1500,
+        unit2: 1600,
+        group: "TPT Road"
+    },
+    {
+        name: "பேரணாம்பட்டு",
+        ename: "Pernampattu",
+        unit1: 900,
+        unit2: 1800,
+        group: "Vellore"
     }
 ]
