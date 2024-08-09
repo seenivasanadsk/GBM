@@ -17,7 +17,7 @@ export const items = [
     },
     {
         name: "Allmix",
-        price: 2200
+        price: 2100
     },
     {
         name: "50mm",
